@@ -1,0 +1,25 @@
+<div class="wrapper">
+	<header>
+		<h1>Pixel Art</h1>
+		<p>Vẽ đii ròi up str coi nàoo</p>
+	</header>
+	<div class="controls">
+		<label for="colorPicker">Màu Pixel</label>
+		<input type="color" id="colorPicker">
+		<label for="cellSize">Kích Thước</label>
+		<input type="range" min="10" max="60" id="columns" step="10" value="30">
+		<button data-undo>Hoàn Tác</button>
+		<button data-clear>Xóa</button>
+		<button data-save>Lưu</button>
+	</div>
+	<div class="canvas">
+		<div class="draw-area">
+			<div class="marker"></div>
+		</div>
+	</div>
+	<div class="css">
+		<label for="css">CSS Tranh:</label>
+		<textarea name="cssCode" id="css" rows="10"></textarea>
+		<button data-copy>Sao Chép Vào Bộ Nhớ Tạm</button>
+	</div>
+</div>
